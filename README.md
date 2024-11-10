@@ -1,1 +1,2 @@
-https://github.com/anyahb/rsschool-cv
+https://anyahb.github.io/rsschool-cv/cv
+
