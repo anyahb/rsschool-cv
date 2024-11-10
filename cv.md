@@ -6,7 +6,7 @@
 - **Instagram:** [@anyahornbaker](https://www.instagram.com/anyahornbaker)
 
 ## Summary
-I have experience working as a Junior Front-End Developer, and my goal is to improve in the areas I'm lacking. I am especially focused on getting better with React. Good luck!
+I have experience working as a Junior Front-End Developer, and my goal is to improve in the areas I'm lacking. I am especially focused on getting better with React. Good luck!!!
 
 ## Skills
 - HTML, CSS
