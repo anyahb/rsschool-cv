@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.main__resume {
+    width: 30%;
+}
+
+
+.main__resume-name {
+    display: flex;
+    gap: 50px;
+}
