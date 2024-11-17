@@ -3,39 +3,51 @@
 
 <head>
     <meta charset="utf-8">
-    <title>RS school resume project</title>
+    <title>RS School Resume Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact Info</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Code Examples</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#english">English</a></li>
+        </ul>
+    </nav>
+
     <div class="main">
         <div class="main__resume">
+            <h1>The Rolling Scopes School Resume</h1>
 
             <div class="main__resume-name">
                 <div>
-                    <h3>First Name</h3>
+                    <h2>First Name</h2>
                     <p>Anya</p>
                 </div>
 
                 <div>
-                    <h3>Last Name</h3>
+                    <h2>Last Name</h2>
                     <p>Hornbaker</p>
                 </div>
             </div>
 
-            <h3>Contact Info and Ways to Contact Me</h3>
+            <h2 id="contact">Contact Info and Ways to Contact Me</h2>
             <ul>
                 <li><b>Email:</b> <a href="mailto:annahornbaker@gmail.com">annahornbaker@gmail.com</a></li>
-                <li><b>Telegram:</b> <a href="https://t.me/artemiden" target="_blank">@artemiden</a></li>
-                <li><b>Instagram:</b> <a href="https://instagram.com/anyahornbaker" target="_blank">@anyahornbaker</a>
-                </li>
+                <li><b>Telegram:</b> <a href="https://t.me/artemiden">@artemiden</a></li>
+                <li><b>Instagram:</b> <a href="https://instagram.com/anyahornbaker">@anyahornbaker</a></li>
             </ul>
 
-            <h3>Summary</h3>
+            <h2 id="summary">Summary</h2>
             <p>I have experience working as a Junior Front-End Developer, and my goal is to improve in areas I'm
                 lacking, especially with React.</p>
 
-            <h3>Skills</h3>
+            <h2 id="skills">Skills</h2>
             <ul>
                 <li>HTML, CSS</li>
                 <li>JavaScript</li>
@@ -46,21 +58,46 @@
                 <li>Adobe Premiere Pro</li>
             </ul>
 
-            <h3>Code Examples</h3>
-            <p>Last personal project: <a href="https://github.com/anyahb/lit-module" target="_blank">GitHub Project</a>
-            </p>
+            <h2 id="projects">Code Examples</h2>
+            <pre><code>
+                // Prefix Problem
+                var longestCommonPrefix = function(strs) {
+                    let prefix = ""
+                    for (let i = 0; i < strs[0].length; i++){
+                        const char = strs[0][i] // loop through all characters of the very first string.
+                        for (let j = 1; j < strs.length; j++){
+                            // loop through all other strings in the array
+                            if(strs[j][i] !== char) return prefix
+                        }
+                        prefix = prefix + char
+                    }
+                    return prefix
+                }
+                
+                console.log(longestCommonPrefix(["dog", "racecar", "car"]))
+                </code></pre>
 
-            <h3>Experience</h3>
+
+                <p><a href="https://github.com/anyahb/lit-module">Click to see my last project!</a></p>
+
+
+            <h2 id="experience">Experience</h2>
             <p>Freelance, two "Junior Developer" jobs</p>
 
-            <h3>Education</h3>
+            <h2 id="education">Education</h2>
             <p>"Information Technology" degree, "Web Development" degree</p>
 
-            <h3>English</h3>
-            <p>My English level is advanced, and I've been living in the US for the past 6 years.</p>
+            <h2 id="english">English</h2>
+            <p>My English level is advanced, I've been living in the US for the past 6 years.</p>
+
+            <footer>
+                <div><a href="https://github.com/anyahb">GitHub</a> | 2024 |</div>
+                <div><a href="https://rs.school/courses/javascript"><img class="logo"
+                            src="https://raw.githubusercontent.com/rolling-scopes-school/js-fe-course-en/b920cf23482de2edaa0a25b62a0fd098eb67e91f/tasks/CV(markdown)/rs-school-logo.svg"
+                            alt="RSSchool"></a></div>
+            </footer>
         </div>
     </div>
-
 </body>
 
 </html>
