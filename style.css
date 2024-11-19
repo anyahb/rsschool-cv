@@ -26,10 +26,15 @@ body {
     margin-bottom: 20px;
     font-size: 24px;
     color: #0073e6;
+    padding: 20px;
 }
 
 .main__resume-name p {
     font-size: 24px; 
+}
+
+.main__img {
+    height: 150px;
 }
 
 
@@ -60,6 +65,7 @@ nav ul {
     margin: 0;
     height: 100%;
     align-items: center;
+    font-size: 24px;
 }
 
 nav a {
@@ -142,6 +148,10 @@ footer a:hover {
     .main__resume-name {
         gap: 20px;
         font-size: 20px;
+    }
+
+    .main__img {
+        height: 120px;
     }
 
     h1 {

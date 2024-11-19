@@ -24,6 +24,8 @@
         <div class="main__resume">
             <h1>The Rolling Scopes School Resume</h1>
 
+           
+
             <div class="main__resume-name">
                 <div>
                     <h2>First Name</h2>
@@ -31,9 +33,15 @@
                 </div>
 
                 <div>
+                    <img class="main__img" src="https://anyahb.github.io/img/Photo.png" alt="avatar">
+                </div>
+
+                <div>
                     <h2>Last Name</h2>
                     <p>Hornbaker</p>
                 </div>
+
+                
             </div>
 
             <h2 id="contact">Contact Info and Ways to Contact Me</h2>
@@ -64,9 +72,8 @@
                 var longestCommonPrefix = function(strs) {
                     let prefix = ""
                     for (let i = 0; i < strs[0].length; i++){
-                        const char = strs[0][i] // loop through all characters of the very first string.
+                        const char = strs[0][i]
                         for (let j = 1; j < strs.length; j++){
-                            // loop through all other strings in the array
                             if(strs[j][i] !== char) return prefix
                         }
                         prefix = prefix + char
@@ -94,7 +101,7 @@
                 <div><a href="https://github.com/anyahb">GitHub</a> | 2024 |</div>
                 <div><a href="https://rs.school/courses/javascript"><img class="logo"
                             src="https://raw.githubusercontent.com/rolling-scopes-school/js-fe-course-en/b920cf23482de2edaa0a25b62a0fd098eb67e91f/tasks/CV(markdown)/rs-school-logo.svg"
-                            alt="RSSchool"></a></div>
+                            alt="RSSchool logo"></a></div>
             </footer>
         </div>
     </div>
