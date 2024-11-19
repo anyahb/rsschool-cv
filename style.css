@@ -18,14 +18,15 @@ body {
     padding: 20px;
 }
 
-
-
 .main__resume-name {
     display: flex;
     gap: 50px;
-    margin-bottom: 20px;
     font-size: 24px;
     color: #0073e6;
+}
+
+.main__resume-img {
+    height: 150px;
 }
 
 .main__resume-name p {
@@ -36,11 +37,9 @@ body {
 h1 {
     text-align: center;
     font-size: 32px;
-    margin-bottom: 20px;
 }
 
 h2 {
-    margin-top: 20px;
     font-size: 24px;
     color: #222222;
 }
@@ -76,7 +75,6 @@ footer {
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-top: 30px;
     font-size: 14px;
 }
 
@@ -117,11 +115,6 @@ footer a:hover {
     footer {
         flex-direction: column;
         text-align: center;
-        margin-top: 20px;
-    }
-
-    footer div {
-        margin-bottom: 10px;
     }
 
     nav ul {
