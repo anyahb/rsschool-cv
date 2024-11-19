@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.main__resume {
+    width: 60%;
+    padding: 20px;
+}
+
+.main__resume-name {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    color: #0073e6;
+}
+
+.main__resume-img {
+    height: 150px;
+}
+
+.main__resume-name p {
+    font-size: 24px; 
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #222222;
+}
+
+nav {
+    background-color: #e0f0f9;
+    width: 100%;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 30px;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .main__resume {
+        width: 80%;
+    }
+
+    .main__resume-name {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .main__resume {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main__resume-name {
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    footer a {
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
